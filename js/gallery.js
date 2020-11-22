@@ -82,7 +82,7 @@ function modalImgScrolling(event) {
         imgIndex -= 1;
     };
 
-    if (event.code === 'ArrowRight' || event.code === 'ArrowUp' || modalContent === event.target) {
+    if (event.code === 'ArrowRight' || event.code === 'ArrowUp') {
         if (imgIndex === galleryItems.length - 1) {
         imgIndex -= galleryItems.length;}
         imgIndex += 1;
